@@ -33,32 +33,32 @@ const Services = () => {
           <a href="/" className="learn-more">Learn More</a>
         </div>
 
-        <div className="service-card">
+       {/* <div className="service-card">
           <div className="icon-container">
-            <i className="fas fa-building"></i> {/* List a Property Icon */}
+            <i className="fas fa-building"></i> {/* List a Property Icon 
           </div>
           <h3>List a Property</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
           <a href="/" className="learn-more">Learn More</a>
-        </div>
+        </div> */}
 
-        <div className="service-card">
+       {/* <div className="service-card">
           <div className="icon-container">
-            <i className="fas fa-search"></i> {/* Property Locator Icon */}
+            <i className="fas fa-search"></i> {/* Property Locator Icon 
           </div>
           <h3>Property Locator</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
           <a href="/" className="learn-more">Learn More</a>
-        </div>
+        </div> */}
 
-           <div className="service-card">
-          <div className="icon-container">
-            <i className="fas fa-mobile-alt"></i> {/* Stated Apps Icon */}
-          </div>
-          <h3>Stated Apps</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-          <a href="/" className="learn-more">Learn More</a>
-        </div>
+           {/* <div className="service-card"> */}
+          {/* <div className="icon-container"> */}
+            {/* <i className="fas fa-mobile-alt"></i> Stated Apps Icon */}
+          {/* </div> */}
+          {/* <h3>Stated Apps</h3> */}
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+          <a href="/" className="learn-more">Learn More</a> */}
+        {/* </div> */}
       </div>
     </div>
   );

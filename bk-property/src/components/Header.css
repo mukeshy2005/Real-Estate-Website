@@ -10,11 +10,17 @@
     box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
     
   }
-  
+  /* @media (max-width: 768px) {
+    .logo-image {
+      width: 40px;
+      height: 40px;
+      }
+    } */
   .logo {
     font-size: 24px;
     color: #FFFFFF;
     font-weight: bold;
+    margin-top: 10px;
   }
   
   .nav-menu ul {

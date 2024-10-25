@@ -11,11 +11,12 @@
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    
   }
   
   .contact-form, .contact-info {
     background-color: #fff;
-    padding: 20px;
+    padding: 50px;
     margin: 10px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -24,6 +25,7 @@
   .contact-form {
     flex: 1;
     max-width: 400px;
+    
   }
   
   .contact-form h2 {

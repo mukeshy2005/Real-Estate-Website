@@ -7,22 +7,22 @@ const Testimonials = () => {
   // Sample testimonials data
   const testimonials = [
     {
-      quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nostrum vitae explicabo dolore ratione. Quia iure quod ipsa blanditiis sint nulla a nam veritatis ex eos. Dicta molestiae dolorum laudantium.",
-      name: "Nick Andros",
+      quote: "Best of the Best real estate broker I recommend in new Delhi for every neede shop keeper on Market places. Very helpful man & sportive man in uttam nagar market thanks to you. gorav Bhai at kala Malhotra property dealer.",
+      name: "Mukesh Yadav",
       role: "Client",
-      number: 7
+      // number: 7
     },
     {
-      quote: "Another amazing feedback! This company really helped me find the perfect property. Great service and highly recommended.",
-      name: "Jane Doe",
+      quote: "Very cooperative person with variety of rooms available..... Do contact him when u are searching for good room at good location",
+      name: "Mohan Singh",
       role: "Client",
-      number: 8
+      // number: 8
     },
     {
-      quote: "Fantastic support and service! I couldn't be happier with my decision to work with them.",
-      name: "John Smith",
+      quote: " Actually I was searching flat in Delhi he fulfilled everything that I demanded in flat so highly recommended please try once before any one else  .",
+      name: "Roushan Kumar",
       role: "Client",
-      number: 9
+      // number: 9
     }
   ];
 

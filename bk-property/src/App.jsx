@@ -1,5 +1,9 @@
 import { useState } from 'react'
+// import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import reactLogo from './assets/react.svg'
+// import '@fortawesome/fontawesome-free/css/all.css';
+
 import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header'
@@ -14,28 +18,34 @@ import ContactUs from './components/ContactUs'
 import Footer from './components/Footer'
 import WhatsAppRedirect from './components/Whatsapp'
 
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    {/* <Routes> */}
-    {/* <Route path="/" element={<Home />} /> */}
-                {/* <Route path="/eroSection" element={<HeroSection />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/resource" element={<Resources />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/contest" element={<ContestPage />} />
-                <Route path="/club" element={<Club />} /> */}
-    {/* </Routes> */}
+    {/*
+    <Router>
+     <Routes> 
+                <Route path="/" element={<Header/>} /> 
+                <Route path="/HeroSection" element={<HeroSection />} />
+                <Route path="/HowItWorks" element={<HowItWorks />} />
+                <Route path="/Properties" element={<Properties />} />
+                <Route path="/Services" element={<Services/>} />
+                <Route path="/Testimonials" element={<Testimonials />} />
+                <Route path="/ContactUs" element={<ContactUs/>} /> 
+                <Route path="/Footer" element={<Footer/>} /> 
+     </Routes> 
+     */}
+      
     <Header/>
-    {/* <hr /> */}
+    
     <HeroSection/>
     {/* <WhatsAppRedirect/> */}
     <HowItWorks/>
     <Properties/>
     {/* <Agents/> */}
-    <AboutSection/>
+    {/* <AboutSection/> */}
     <Services/>
     <Testimonials/>
     <ContactUs/>
@@ -50,6 +60,7 @@ function App() {
       >
         <i class="fa fa-whatsapp whatsapp-icon"></i>
       </a> 
+      {/* </Router> */}
     
     </>
   )
