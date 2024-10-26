@@ -45,7 +45,7 @@ function App() {
     <HowItWorks/>
     <Properties/>
     {/* <Agents/> */}
-    {/* <AboutSection/> */}
+    <AboutSection/>
     <Services/>
     <Testimonials/>
     <ContactUs/>
