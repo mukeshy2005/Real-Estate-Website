@@ -11,7 +11,7 @@ const Properties = () => {
       baths: 4,
       sqft: '4,250 sqft.',
       address: '480 12th, Unit 14, San Francisco, CA',
-      img: './src/assets/property1.jpg',
+      img: 'public/property1.jpg',
     },
     {
       name: 'Property 2',
@@ -20,7 +20,7 @@ const Properties = () => {
       baths: 3,
       sqft: '3,800 sqft.',
       address: '123 Oak St, San Francisco, CA',
-      img: './src/assets/property2.jpg',
+      img: 'public/property2.jpg',
     },
     {
       name: 'Property 3',
@@ -29,7 +29,7 @@ const Properties = () => {
       baths: 5,
       sqft: '5,100 sqft.',
       address: '789 Maple Ave, San Francisco, CA',
-      img: './src/assets/property3.jpg',
+      img: 'public/property3.jpg',
     },
     {
       name: 'Property 4',
@@ -38,7 +38,7 @@ const Properties = () => {
       baths: 4,
       sqft: '4,000 sqft.',
       address: '456 Pine St, San Francisco, CA',
-      img: './src/assets/property4.jpg',
+      img: 'public/property4.jpg',
     },
   ];
 

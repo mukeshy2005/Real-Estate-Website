@@ -1,99 +1,128 @@
-/* Footer.css */
+ /* Footer.css */
 .footer {
-    background-color: #333;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    /* position: fixed; */
-    bottom: 0;
-    /* width: 100%; */
-    flex-wrap: wrap;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column; /* Stack sections on small screens */
+  padding: 20px;
+  bottom: 0;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+}
+
+.footer-section h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section .newsletter-form {
+  font-size: 14px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column; /* Stack input and button on small screens */
+  align-items: center; /* Center align items */
+}
+
+.newsletter-form input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  width: 100%; /* Full width on small screens */
+  margin-bottom: 10px; /* Space between input and button */
+}
+
+.newsletter-form button {
+  padding: 10px;
+  border: none;
+  background-color: #f90;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; /* Full width on small screens */
+}
+
+.newsletter-form button:hover {
+  background-color: #e80;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #ccc;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  font-size: 12px;
+}
+
+.footer-bottom p span {
+  color: #f39c12;
+}
+
+/* Responsive styles */
+@media (min-width: 600px) {
+  .footer {
+      flex-direction: row; /* Change to row on larger screens */
+      justify-content: space-between; /* Space out sections */
   }
-  
-  .footer-section {
-    flex: 1;
-    margin: 10px;
-  }
-  
-  .footer-section h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  .footer-section p, .footer-section ul, .footer-section .newsletter-form {
-    font-size: 14px;
-  }
-  
-  .footer-section ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer-section ul li {
-    margin-bottom: 5px;
-  }
-  
-  .footer-section ul li a {
-    color: #ccc;
-    text-decoration: none;
-  }
-  
-  .footer-section ul li a:hover {
-    color: #fff;
-  }
-  
+
   .newsletter-form {
-    display: flex;
+      flex-direction: row; /* Row layout for input and button */
   }
-  
+
   .newsletter-form input {
-    padding: 10px;
-    border: none;
-    border-radius: 5px 0 0 5px;
-    outline: none;
-    flex: 1;
+      margin-bottom: 0; /* Remove bottom margin */
+      margin-right: 10px; /* Add right margin for spacing */
+      border-radius: 5px 0 0 5px; /* Keep rounded corners on the left */
   }
-  
+
   .newsletter-form button {
-    padding: 10px;
-    border: none;
-    background-color: #f90;
-    color: #fff;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
+      border-radius: 0 5px 5px 0; /* Keep rounded corners on the right */
   }
-  
-  .newsletter-form button:hover {
-    background-color: #e80;
+
+  .footer-section {
+      text-align: left; /* Align text to the left on larger screens */
   }
-  
-  .social-icons {
-    margin-top: 10px;
-  }
-  
-  .social-icons a {
-    color: #ccc;
-    margin-right: 10px;
-    text-decoration: none;
-    font-size: 18px;
-  }
-  
-  .social-icons a:hover {
-    color: #fff;
-  }
-  
-  .footer-bottom {
-    text-align: center;
-    width: 100%;
-    margin-top: 20px;
-  }
-  
-  .footer-bottom p {
-    font-size: 12px;
-  }
-  
-  .footer-bottom p span {
-    color: #f39c12;
-  }
-  
+}

@@ -1,62 +1,114 @@
-/* Styling for the entire testimonials section */
+ /* Styling for the entire testimonials section */
 .testimonials-section {
-    padding: 40px;
-    text-align: center;
-    background-color: #f9f9f9;
-  }
-  
+  padding: 40px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.testimonials-heading {
+  font-size: 2.5rem;
+  color: #ff7e00;
+  margin-bottom: 20px;
+}
+
+.testimonial-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Previous and next button styles */
+.prev,
+.next {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.prev:hover,
+.next:hover {
+  color: #ff7e00;
+}
+
+.testimonial {
+  width: 80%;
+  text-align: center;
+}
+
+.testimonial-quote {
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.testimonial-client {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+  color: #666;
+}
+
+.testimonial-client p span {
+  font-weight: bold;
+  color: #8cc63f; /* Slightly different color for role */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
   .testimonials-heading {
-    font-size: 2.5rem;
-    color: #ff7e00;
-    margin-bottom: 20px;
-  }
-  
-  .testimonial-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 800px;
-    margin: 0 auto;
-    position: relative;
-  }
-  
-  /* Previous and next button styles */
-  .prev, .next {
-    background: none;
-    border: none;
     font-size: 2rem;
-    color: #333;
-    cursor: pointer;
-    transition: color 0.3s;
   }
-  
-  .prev:hover, .next:hover {
-    color: #ff7e00;
+
+  .testimonial-container {
+    flex-direction: column;
   }
-  
-  .testimonial {
-    width: 80%;
-    text-align: center;
-  }
-  
-  .testimonial-quote {
+
+  .prev,
+  .next {
     font-size: 1.5rem;
-    color: #555;
-    margin-bottom: 20px;
-    font-style: italic;
+    margin: 0 10px;
   }
-  
+
+  .testimonial {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .testimonial-quote {
+    font-size: 1.3rem;
+  }
+
   .testimonial-client {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    font-size: 1rem;
-    color: #666;
+    font-size: 0.9rem;
   }
-  
-  .testimonial-client p span {
-    font-weight: bold;
-    color: #8cc63f; /* Slightly different color for role */
+}
+
+@media (max-width: 480px) {
+  .testimonials-heading {
+    font-size: 1.8rem;
   }
-  
+
+  .testimonial-quote {
+    font-size: 1.2rem;
+  }
+
+  .prev,
+  .next {
+    font-size: 1.3rem;
+  }
+
+  .testimonial-client {
+    font-size: 0.8rem;
+    flex-direction: column;
+    gap: 5px;
+  }
+}

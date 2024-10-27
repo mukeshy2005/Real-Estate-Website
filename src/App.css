@@ -1,14 +1,21 @@
- /* WhatsApp Floating Button */
-.whatsapp_float {
+ /* Container for the floating icons */
+.floating-icons {
   position: fixed;
   bottom: 20px; /* Distance from the bottom */
-  right: 100px; /* Adjust the distance from the right to make space for YouTube */
+  right: 20px; /* Initial distance from the right */
+  display: flex;
+  flex-direction: column; /* Default to vertical stacking */
+  gap: 10px; /* Space between icons */
+}
+
+/* WhatsApp Floating Button */
+.whatsapp_float {
   background-color: #25D366; /* WhatsApp green */
   color: white; /* Icon color */
   border-radius: 50%; /* Circular shape */
   padding: 15px; /* Spacing around the icon */
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Shadow for depth */
-  font-size: 30px; /* Size of the icon, same as YouTube */
+  font-size: 30px; /* Size of the icon */
   transition: transform 0.3s, background-color 0.3s; /* Smooth transition */
   z-index: 1000; /* Ensures the icon is on top */
 }
@@ -20,9 +27,6 @@
 
 /* YouTube Floating Button */
 .youtube_float {
-  position: fixed;
-  bottom: 20px; /* Distance from the bottom */
-  right: 20px; /* Distance from the right */
   background-color: red; /* YouTube brand color */
   color: white; /* Icon color */
   border-radius: 50%; /* Circular icon */
@@ -35,4 +39,12 @@
 
 .youtube_float:hover {
   transform: scale(1.1); /* Slightly enlarges on hover */
+}
+
+/* Media query for laptops and larger screens */
+@media (min-width: 768px) {
+  .floating-icons {
+    flex-direction: row; /* Change to horizontal stacking on larger screens */
+    right: 100px; /* Adjust spacing */
+  }
 }

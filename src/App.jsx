@@ -37,22 +37,15 @@ function App() {
 
 
       {/* WhatsApp Floating Button */}
-      <a
-      href="https://www.youtube.com/@BKPROPERTIES01" // Update with your YouTube channel link
-      className="youtube_float"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <i className="fab fa-youtube youtube-icon"></i>
-    </a>
-      <a
-        href="https://wa.me/+918826560737" // Update phone number as needed
-        className="whatsapp_float"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-whatsapp whatsapp-icon"></i>
-      </a>
+      <div class="floating-icons">
+  <a href="https://wa.me/yourwhatsapplink" class="whatsapp_float">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <a href="https://www.youtube.com/yourchannel" class="youtube_float">
+    <i class="fab fa-youtube"></i>
+  </a>
+</div>
+
       <Testimonials/>
       <Footer/>
     </Router>
