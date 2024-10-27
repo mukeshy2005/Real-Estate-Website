@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column; /* Default to vertical stacking */
   gap: 10px; /* Space between icons */
+  z-index: 1000;
 }
 
 /* WhatsApp Floating Button */
@@ -41,6 +42,21 @@
   transform: scale(1.1); /* Slightly enlarges on hover */
 }
 
+.call_float {
+  background-color: #34b7f1; /* Call icon color */
+  color: white; /* Icon color */
+  border-radius: 50%; /* Circular shape */
+  padding: 15px; /* Spacing around the icon */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+  font-size: 30px; /* Size of the icon */
+  transition: transform 0.3s, background-color 0.3s; /* Smooth transition */
+  z-index: 1000; /* Ensures the icon is on top */
+}
+
+.call_float:hover {
+  transform: scale(1.1); /* Slightly enlarges on hover */
+  background-color: #009fdc; /* Darker shade on hover */
+}
 /* Media query for laptops and larger screens */
 @media (min-width: 768px) {
   .floating-icons {

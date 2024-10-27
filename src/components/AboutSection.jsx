@@ -7,7 +7,7 @@ const AboutSection = () => {
     <section className="about-section">
       <div className="about-image">
         {/* Image placeholder */}
-        <img src="/public/horizontal.jpg" alt="Property 1" />
+        <img src="/horizontal.jpg" alt="Property 1" />
       </div>
       <div className="about-content">
         <h2>Discover Luxury Living in Delhi's Prime Locations.</h2>

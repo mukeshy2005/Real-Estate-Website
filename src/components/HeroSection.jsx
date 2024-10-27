@@ -3,9 +3,9 @@ import React, { useState, useEffect } from 'react';
 import './HeroSection.css';
 
 const images = [
-  'public/property1.jpg',
-  'public/property2.jpg',
-  'public/property3.jpg'
+  '/property1.jpg',
+  '/property2.jpg',
+  '/property3.jpg'
 ];
 
 const HeroSection = () => {

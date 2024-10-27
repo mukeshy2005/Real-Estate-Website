@@ -14,7 +14,7 @@ const agents = [
 const Agents = () => {
   return (
     <section className="agents-section">
-      <h2 className="agents-title">Agents</h2>
+      <h2 className="agents-title">Clients</h2>
       <p className="agents-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima neque tempora reiciendis.</p>
       <div className="agents-grid">
         {agents.map((agent, index) => (

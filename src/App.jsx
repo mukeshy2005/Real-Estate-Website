@@ -38,10 +38,14 @@ function App() {
 
       {/* WhatsApp Floating Button */}
       <div class="floating-icons">
-  <a href="https://wa.me/yourwhatsapplink" class="whatsapp_float">
+      <a href="tel:+918826560737" class="call_float" target="_blank">
+    <i class="fas fa-phone-alt"></i>
+</a>
+
+  <a href="https://wa.me/918826560737" class="whatsapp_float">
     <i class="fab fa-whatsapp"></i>
   </a>
-  <a href="https://www.youtube.com/yourchannel" class="youtube_float">
+  <a href="https://www.youtube.com/@BKPROPERTIES01" class="youtube_float">
     <i class="fab fa-youtube"></i>
   </a>
 </div>

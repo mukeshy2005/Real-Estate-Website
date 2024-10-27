@@ -21,7 +21,7 @@ const Header = () => {
     <header className="header">
       <div style={{ display: "flex" }}>
         <img
-          src="public/bklogo.jpg"
+          src="/bklogo.jpg"
           style={{ width: "50px", height: "50px", marginRight: "10px" }}
           alt="Logo"
         />
@@ -68,7 +68,7 @@ const Header = () => {
           </li>
           <li>
             <button className="nav-button" onClick={() => handleNavigation("/Agents")}>
-              Agents
+              Clients
             </button>
           </li>
           <li>
