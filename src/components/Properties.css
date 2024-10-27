@@ -1,0 +1,141 @@
+.properties-section {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .properties-title {
+    font-size: 36px;
+    color: #f8991c;
+    margin-bottom: 30px;
+  }
+  
+  .properties-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .property-card {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 23%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  .property-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .property-price {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .property-details {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .property-details li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .property-address {
+    font-size: 14px;
+    color: #999;
+    margin-top: 10px;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination-link {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .view-listings-btn {
+    background-color: #f8991c;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  
+  .view-listings-btn:hover {
+    background-color: #f07d00;
+  }
+  
+  /* Container for YouTube video cards */
+.youtube-videos-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  padding: 0 20px;
+}
+
+/* YouTube video card styling */
+.youtube-card {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 23%; /* Adjust width to fit four cards in a row */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  text-align: center;
+  transition: transform 0.2s; /* Add slight scale effect on hover */
+}
+
+/* Hover effect for cards */
+.youtube-card:hover {
+  transform: scale(1.02);
+}
+
+/* YouTube embedded video styling */
+.youtube-video {
+  width: 100%;
+  height: 150px; /* Set height for video */
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+/* Video title styling */
+.youtube-info h3 {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+/* Watch on YouTube link styling */
+.youtube-info a {
+  font-size: 14px;
+  color: #f8991c;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.youtube-info a:hover {
+  text-decoration: underline;
+}
