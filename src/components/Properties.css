@@ -6,7 +6,7 @@
 
 .properties-title {
   font-size: 36px;
-  color: #f8991c;
+  color: #7469B6;
   margin-bottom: 30px;
 }
 
@@ -74,7 +74,7 @@
 }
 
 .view-listings-btn {
-  background-color: #f8991c;
+  background-color: #E1AFD1;
   color: white;
   padding: 15px 30px;
   border: none;
@@ -85,7 +85,7 @@
 }
 
 .view-listings-btn:hover {
-  background-color: #f07d00;
+  background-color: #7469B6;
 }
 
 /* Container for YouTube video cards */
@@ -130,7 +130,7 @@
 
 .youtube-info a {
   font-size: 14px;
-  color: #f8991c;
+  color: #7469B6;
   text-decoration: none;
   display: inline-block;
   margin-top: 5px;

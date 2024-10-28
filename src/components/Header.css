@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #444B54;
+  background-color: #7469B6;
   position: sticky;
   z-index: 999;
   top: 0;
@@ -31,6 +31,14 @@
 
 .nav-menu li {
   margin: 0 15px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Add hover effect for each menu item */
+.nav-menu li:hover {
+  background-color: #5e51a6; /* Darker shade for hover */
+  transform: scale(1.05);
+  border-radius: 8px; /* Optional for rounded hover effect */
 }
 
 .nav-button {
@@ -42,6 +50,7 @@
   transition: color 0.3s;
 }
 
+/* Color change on hover */
 .nav-button:hover {
   color: #e0e0e0;
 }
@@ -70,13 +79,23 @@
 }
 
 .header-customize-item a {
+  /* color: #f5f5f5;
+  text-decoration: none; */
   color: #f5f5f5;
   text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s;
+  padding: 5px 10px; /* Optional padding for better hover effect */
+  border-radius: 8px; /* Optional for rounded hover effect */
 }
 
 .header-customize-item a:hover {
-  color: #4CAF50;
+  /* color: #4CAF50; */
+  background-color: #5e51a6; /* Darker shade for hover */
+  transform: scale(1.05);
 }
+/* .header-customize-item a:hover {
+  color: #4CAF50;
+} */
 
 /* Mobile Responsive Styles */
 .menu-icon {
@@ -104,7 +123,7 @@
     top: 60px;
     left: 0;
     width: 100%;
-    background-color: #444B54;
+    background-color: #7469B6;
     text-align: center;
     padding: 10px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -122,5 +141,6 @@
 
   .nav-menu ul li {
     margin: 10px 0;
+    width: 100%;
   }
 }

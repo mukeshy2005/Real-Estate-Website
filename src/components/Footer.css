@@ -61,7 +61,7 @@
 .newsletter-form button {
   padding: 10px;
   border: none;
-  background-color: #f90;
+  background-color: #7469B6;
   color: #fff;
   border-radius: 5px;
   cursor: pointer;
@@ -69,7 +69,7 @@
 }
 
 .newsletter-form button:hover {
-  background-color: #e80;
+  background-color: #7469B6;
 }
 
 .social-icons {
@@ -84,7 +84,7 @@
 }
 
 .social-icons a:hover {
-  color: #fff;
+  color: #7469B6;
 }
 
 .footer-bottom {

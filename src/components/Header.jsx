@@ -22,7 +22,7 @@ const Header = () => {
       <div style={{ display: "flex" }}>
         <img
           src="/bklogo.jpg"
-          style={{ width: "50px", height: "50px", marginRight: "10px" }}
+          style={{ width: "50px", height: "50px", marginRight: "10px" , borderRadius: "50px" }}
           alt="Logo"
         />
         <div className="logo">BK PROPERTY</div>
