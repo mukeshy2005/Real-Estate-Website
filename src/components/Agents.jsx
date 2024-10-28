@@ -1,14 +1,13 @@
- // Agents.jsx
 import React from 'react';
 import './Agents.css';
 
 const agents = [
-  { name: 'Kaiara Spencer', title: 'Real Estate Agent' },
-  { name: 'Dave Simpson', title: 'Real Estate Agent' },
-  { name: 'Ben Thompson', title: 'Real Estate Agent' },
-  { name: 'Kyla Stewart', title: 'Real Estate Agent' },
-  { name: 'Rich Moffatt', title: 'Real Estate Agent' },
-  { name: 'Stuart Redman', title: 'Real Estate Agent' },
+  { name: 'Kaiara Spencer', title: 'Real Estate Agent', image: '/client1.jpg' },
+  { name: 'Dave Simpson', title: 'Real Estate Agent', image: '/client2.jpg' },
+  { name: 'Ben Thompson', title: 'Real Estate Agent', image: '/client3.jpg' },
+  { name: 'Kyla Stewart', title: 'Real Estate Agent', image: '/client4.jpg' },
+  { name: 'Rich Moffatt', title: 'Real Estate Agent', image: '/client5.jpg' },
+  { name: 'Stuart Redman', title: 'Real Estate Agent', image: '/client6.jpg' },
 ];
 
 const Agents = () => {
@@ -20,8 +19,7 @@ const Agents = () => {
         {agents.map((agent, index) => (
           <div key={index} className="agent-card">
             <div className="agent-image-placeholder">
-              {/* Image placeholder */}
-              <img src="image-placeholder.png" alt="Realtor 1" />
+              <img src={agent.image} alt={agent.name} />
             </div>
             <div className="agent-info">
               <h3>{agent.name}</h3>

@@ -30,16 +30,20 @@
 
 .agent-image-placeholder {
   width: 100%;
-  height: 120px;
+  height: 180px;
   background-color: #e9e9e9;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+  border-radius: 8px;
 }
 
 .agent-image-placeholder img {
-  max-width: 50px;
-  max-height: 50px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure image covers the entire placeholder area */
+  object-position: center;
 }
 
 .agent-info {
@@ -73,6 +77,10 @@
     padding: 15px; /* Reduced padding for mobile cards */
   }
 
+  .agent-image-placeholder {
+    height: 150px; /* Adjusted height for mobile */
+  }
+
   .agent-info h3 {
     font-size: 1.25rem; /* Smaller name size for mobile */
   }
@@ -96,11 +104,14 @@
   }
 
   .agent-image-placeholder {
-    height: 100px; /* Reduced height for mobile image placeholders */
+    height: 120px; /* Reduced height for very small screens */
   }
 
-  .agent-image-placeholder img {
-    max-width: 40px; /* Smaller image size for mobile */
-    max-height: 40px; /* Smaller image size for mobile */
+  .agent-info h3 {
+    font-size: 1.2rem; /* Adjust name font size */
+  }
+
+  .agent-info p {
+    font-size: 0.85rem; /* Adjust title font size */
   }
 }
