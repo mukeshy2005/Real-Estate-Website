@@ -12,6 +12,7 @@ import Services from './components/Services';
 import Testimonials from './components/Testimonials';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
+import { Analytics } from "@vercel/analytics/react"
 
 // Import Font Awesome CSS
 import '@fortawesome/fontawesome-free/css/all.min.css';
